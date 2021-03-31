@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0801EB261385C600D1925D /* EntitiesDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0801EA261385C600D1925D /* EntitiesDecodingTests.swift */; };
 		5A9747A0260AE327001B24BA /* MedlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97479F260AE327001B24BA /* MedlyApp.swift */; };
 		5A9747A7260AE329001B24BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9747A6260AE329001B24BA /* Preview Assets.xcassets */; };
 		5A9747DA260AE33F001B24BA /* CountryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747B0260AE33E001B24BA /* CountryCard.swift */; };
@@ -29,14 +30,27 @@
 		5A9747F0260AE33F001B24BA /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D7260AE33F001B24BA /* AppAction.swift */; };
 		5A9747F1260AE33F001B24BA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D8260AE33F001B24BA /* Connector.swift */; };
 		5A9747F2260AE33F001B24BA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D9260AE33F001B24BA /* Store.swift */; };
-		5A9747FE260AE3EB001B24BA /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9747FD260AE3EB001B24BA /* articles.json */; };
-		5A974815260AE94B001B24BA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A974812260AE94B001B24BA /* APIError.swift */; };
-		5A974816260AE94B001B24BA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A974813260AE94B001B24BA /* APIManager.swift */; };
-		5A974817260AE94B001B24BA /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A974814260AE94B001B24BA /* RequestConfig.swift */; };
-		5A97481C260AEA1E001B24BA /* NetworkingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97481B260AEA1E001B24BA /* NetworkingAdapter.swift */; };
+		5A9747FE260AE3EB001B24BA /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9747FD260AE3EB001B24BA /* countries.json */; };
+		5AEE690626140A25001AB97E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690226140A25001AB97E /* APIError.swift */; };
+		5AEE690726140A25001AB97E /* NetworkingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690326140A25001AB97E /* NetworkingAdapter.swift */; };
+		5AEE690826140A25001AB97E /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690426140A25001AB97E /* RequestConfig.swift */; };
+		5AEE690926140A25001AB97E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690526140A25001AB97E /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A0801ED261385C600D1925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A974794260AE327001B24BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A97479B260AE327001B24BA;
+			remoteInfo = Medly;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A0801E8261385C600D1925D /* MedlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0801EA261385C600D1925D /* EntitiesDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesDecodingTests.swift; sourceTree = "<group>"; };
+		5A0801EC261385C600D1925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A97479C260AE327001B24BA /* Medly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A97479F260AE327001B24BA /* MedlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedlyApp.swift; sourceTree = "<group>"; };
 		5A9747A6260AE329001B24BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -63,14 +77,21 @@
 		5A9747D7260AE33F001B24BA /* AppAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
 		5A9747D8260AE33F001B24BA /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		5A9747D9260AE33F001B24BA /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		5A9747FD260AE3EB001B24BA /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
-		5A974812260AE94B001B24BA /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		5A974813260AE94B001B24BA /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		5A974814260AE94B001B24BA /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
-		5A97481B260AEA1E001B24BA /* NetworkingAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAdapter.swift; sourceTree = "<group>"; };
+		5A9747FD260AE3EB001B24BA /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		5AEE690226140A25001AB97E /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		5AEE690326140A25001AB97E /* NetworkingAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingAdapter.swift; sourceTree = "<group>"; };
+		5AEE690426140A25001AB97E /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		5AEE690526140A25001AB97E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A0801E5261385C600D1925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A974799260AE327001B24BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,10 +102,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A0801E9261385C600D1925D /* MedlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9747FD260AE3EB001B24BA /* countries.json */,
+				5A0801EA261385C600D1925D /* EntitiesDecodingTests.swift */,
+				5A0801EC261385C600D1925D /* Info.plist */,
+			);
+			path = MedlyTests;
+			sourceTree = "<group>";
+		};
 		5A974793260AE327001B24BA = {
 			isa = PBXGroup;
 			children = (
 				5A97479E260AE327001B24BA /* Medly */,
+				5A0801E9261385C600D1925D /* MedlyTests */,
 				5A97479D260AE327001B24BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				5A97479C260AE327001B24BA /* Medly.app */,
+				5A0801E8261385C600D1925D /* MedlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,7 +209,6 @@
 		5A9747BE260AE33F001B24BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5A9747FD260AE3EB001B24BA /* articles.json */,
 				5A9747C0260AE33F001B24BA /* Assets.xcassets */,
 				5A9747C2260AE33F001B24BA /* Info.plist */,
 			);
@@ -186,7 +218,7 @@
 		5A9747C3260AE33F001B24BA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				5A974811260AE94B001B24BA /* Networking */,
+				5AEE690126140A25001AB97E /* Networking */,
 				5A9747C4260AE33F001B24BA /* Models */,
 				5A9747C6260AE33F001B24BA /* Parser */,
 				5A9747C8260AE33F001B24BA /* Extensions */,
@@ -276,21 +308,38 @@
 			path = State;
 			sourceTree = "<group>";
 		};
-		5A974811260AE94B001B24BA /* Networking */ = {
+		5AEE690126140A25001AB97E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				5A974812260AE94B001B24BA /* APIError.swift */,
-				5A974813260AE94B001B24BA /* APIManager.swift */,
-				5A974814260AE94B001B24BA /* RequestConfig.swift */,
-				5A97481B260AEA1E001B24BA /* NetworkingAdapter.swift */,
+				5AEE690226140A25001AB97E /* APIError.swift */,
+				5AEE690326140A25001AB97E /* NetworkingAdapter.swift */,
+				5AEE690426140A25001AB97E /* RequestConfig.swift */,
+				5AEE690526140A25001AB97E /* APIManager.swift */,
 			);
-			name = Networking;
-			path = "../../../../betterup-interview-ios-vlad-zagorodnyuk/iOS/BetterUp/Utils/Networking";
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A0801E7261385C600D1925D /* MedlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0801F1261385C600D1925D /* Build configuration list for PBXNativeTarget "MedlyTests" */;
+			buildPhases = (
+				5A0801E4261385C600D1925D /* Sources */,
+				5A0801E5261385C600D1925D /* Frameworks */,
+				5A0801E6261385C600D1925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0801EE261385C600D1925D /* PBXTargetDependency */,
+			);
+			name = MedlyTests;
+			productName = MedlyTests;
+			productReference = 5A0801E8261385C600D1925D /* MedlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5A97479B260AE327001B24BA /* Medly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A9747AB260AE329001B24BA /* Build configuration list for PBXNativeTarget "Medly" */;
@@ -317,6 +366,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					5A0801E7261385C600D1925D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5A97479B260AE327001B24BA;
+					};
 					5A97479B260AE327001B24BA = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -336,17 +389,25 @@
 			projectRoot = "";
 			targets = (
 				5A97479B260AE327001B24BA /* Medly */,
+				5A0801E7261385C600D1925D /* MedlyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A0801E6261385C600D1925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A97479A260AE327001B24BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A9747A7260AE329001B24BA /* Preview Assets.xcassets in Resources */,
-				5A9747FE260AE3EB001B24BA /* articles.json in Resources */,
+				5A9747FE260AE3EB001B24BA /* countries.json in Resources */,
 				5A9747E3260AE33F001B24BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,13 +415,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A0801E4261385C600D1925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0801EB261385C600D1925D /* EntitiesDecodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A974798260AE327001B24BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEE690926140A25001AB97E /* APIManager.swift in Sources */,
 				5A9747EA260AE33F001B24BA /* ImageLoader.swift in Sources */,
 				5A9747EC260AE33F001B24BA /* FeedMiddleware.swift in Sources */,
-				5A974817260AE94B001B24BA /* RequestConfig.swift in Sources */,
+				5AEE690826140A25001AB97E /* RequestConfig.swift in Sources */,
 				5A9747EF260AE33F001B24BA /* AppState.swift in Sources */,
 				5A9747ED260AE33F001B24BA /* StoreProvider.swift in Sources */,
 				5A9747E8260AE33F001B24BA /* JSONDecoder.swift in Sources */,
@@ -377,17 +447,64 @@
 				5A9747F2260AE33F001B24BA /* Store.swift in Sources */,
 				5A9747DA260AE33F001B24BA /* CountryCard.swift in Sources */,
 				5A9747F0260AE33F001B24BA /* AppAction.swift in Sources */,
-				5A97481C260AEA1E001B24BA /* NetworkingAdapter.swift in Sources */,
 				5A9747A0260AE327001B24BA /* MedlyApp.swift in Sources */,
-				5A974816260AE94B001B24BA /* APIManager.swift in Sources */,
+				5AEE690726140A25001AB97E /* NetworkingAdapter.swift in Sources */,
 				5A9747E7260AE33F001B24BA /* FeedAdapter.swift in Sources */,
-				5A974815260AE94B001B24BA /* APIError.swift in Sources */,
+				5AEE690626140A25001AB97E /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A0801EE261385C600D1925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A97479B260AE327001B24BA /* Medly */;
+			targetProxy = 5A0801ED261385C600D1925D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5A0801EF261385C600D1925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CHSEMW6LK;
+				INFOPLIST_FILE = MedlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.octoent.MedlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medly.app/Medly";
+			};
+			name = Debug;
+		};
+		5A0801F0261385C600D1925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CHSEMW6LK;
+				INFOPLIST_FILE = MedlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.octoent.MedlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medly.app/Medly";
+			};
+			name = Release;
+		};
 		5A9747A9260AE329001B24BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,6 +668,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A0801F1261385C600D1925D /* Build configuration list for PBXNativeTarget "MedlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0801EF261385C600D1925D /* Debug */,
+				5A0801F0261385C600D1925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5A974797260AE327001B24BA /* Build configuration list for PBXProject "Medly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
