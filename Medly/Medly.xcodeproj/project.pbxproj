@@ -30,7 +30,7 @@
 		5A9747F0260AE33F001B24BA /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D7260AE33F001B24BA /* AppAction.swift */; };
 		5A9747F1260AE33F001B24BA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D8260AE33F001B24BA /* Connector.swift */; };
 		5A9747F2260AE33F001B24BA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9747D9260AE33F001B24BA /* Store.swift */; };
-		5A9747FE260AE3EB001B24BA /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9747FD260AE3EB001B24BA /* countries.json */; };
+		5AE0A9A626140BBC00DCB4FE /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9747FD260AE3EB001B24BA /* countries.json */; };
 		5AEE690626140A25001AB97E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690226140A25001AB97E /* APIError.swift */; };
 		5AEE690726140A25001AB97E /* NetworkingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690326140A25001AB97E /* NetworkingAdapter.swift */; };
 		5AEE690826140A25001AB97E /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690426140A25001AB97E /* RequestConfig.swift */; };
@@ -399,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE0A9A626140BBC00DCB4FE /* countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9747A7260AE329001B24BA /* Preview Assets.xcassets in Resources */,
-				5A9747FE260AE3EB001B24BA /* countries.json in Resources */,
 				5A9747E3260AE33F001B24BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
