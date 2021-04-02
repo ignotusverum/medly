@@ -15,7 +15,7 @@ struct FeedListView: View {
     @State var isFilteringByFaves: Bool = false
 
     var body: some View {
-        GeometryReader { geo in
+        NavigationView {
             ScrollView {
                 Color
                     .clear
@@ -24,10 +24,12 @@ struct FeedListView: View {
                 LazyVStack {
                     ForEach(countries,
                             id: \.self) { row in
-                        CountryCard(country: row)
+                        NavigationLink(destination: FeedItemDetailView(country: row)) {
+                            CountryCard(country: row)
+                        }
                     }
                 }
-                                    .padding(.horizontal)
+                .padding(.horizontal)
                 .animation(.default)
 
                 Color

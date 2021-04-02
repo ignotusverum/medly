@@ -8,6 +8,14 @@
 import Combine
 import Foundation
 
+enum CountryFields: String, CaseIterable {
+    case name
+    case alpha2Code
+    case capital
+    case population
+    case timezones
+}
+
 public class CountryAdapter: NetworkingAdapter {
     public var settings: AdapterConfig = .init(base: "restcountries.eu",
                                                name: "rest/v2/all")
@@ -37,7 +45,14 @@ private extension CountryAdapter {
         public var configure: RequestConfig {
             switch self {
             case .fetch:
-                return RequestConfig(method: .get)
+
+                let usedFields = CountryFields
+                    .allCases
+                    .map(\.rawValue)
+                    .joined(separator: ";")
+
+                return RequestConfig(method: .get,
+                                     queryParams: ["fields": usedFields])
             }
         }
     }

@@ -35,6 +35,7 @@
 		5AEE690726140A25001AB97E /* NetworkingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690326140A25001AB97E /* NetworkingAdapter.swift */; };
 		5AEE690826140A25001AB97E /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690426140A25001AB97E /* RequestConfig.swift */; };
 		5AEE690926140A25001AB97E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE690526140A25001AB97E /* APIManager.swift */; };
+		5AFFCE7326175AD900259EAC /* FeedItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFCE7226175AD900259EAC /* FeedItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		5AEE690326140A25001AB97E /* NetworkingAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingAdapter.swift; sourceTree = "<group>"; };
 		5AEE690426140A25001AB97E /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
 		5AEE690526140A25001AB97E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5AFFCE7226175AD900259EAC /* FeedItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				5A9747B3260AE33E001B24BA /* RootView.swift */,
 				5A9747B4260AE33E001B24BA /* FeedList */,
+				5AFFCE7226175AD900259EAC /* FeedItemDetailView.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				5A9747E6260AE33F001B24BA /* Article.swift in Sources */,
 				5A9747EB260AE33F001B24BA /* MiddlewareFactory.swift in Sources */,
 				5A9747DF260AE33F001B24BA /* FeedListState.swift in Sources */,
+				5AFFCE7326175AD900259EAC /* FeedItemDetailView.swift in Sources */,
 				5A9747F1260AE33F001B24BA /* Connector.swift in Sources */,
 				5A9747DD260AE33F001B24BA /* FeedListVIew.swift in Sources */,
 				5A9747EE260AE33F001B24BA /* AppReducer.swift in Sources */,

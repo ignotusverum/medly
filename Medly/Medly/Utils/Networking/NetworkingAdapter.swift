@@ -41,6 +41,11 @@ public extension NetworkingAdapter {
 
         components.path = "/\(cleanedPath)"
 
+        request?.queryParams.forEach { key, value in
+            components.queryItems = [.init(name: key,
+                                           value: value)]
+        }
+
         return components
     }
 

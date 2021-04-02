@@ -18,10 +18,13 @@ public protocol FrameAPIRequest {
 public struct RequestConfig {
     public var method: HTTPMethod
     public var path: String?
+    public var queryParams: [String: String]
 
     public init(method: HTTPMethod,
-                path: String? = nil) {
+                path: String? = nil,
+                queryParams: [String: String]) {
         self.method = method
         self.path = path
+        self.queryParams = queryParams
     }
 }
